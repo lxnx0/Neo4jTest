@@ -8,7 +8,7 @@
     <properties>
 
 		<!-- Generic properties -->
-		<java.version>1.6</java.version>
+		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		
@@ -42,6 +42,9 @@
 		<groovy.version>2.4.5</groovy.version>
 		<version.jboss-vfs>3.2.11.Final</version.jboss-vfs>
 		<neo4j-ogm.version>2.1.0-SNAPSHOT</neo4j-ogm.version>
+		
+		<maven.compiler.source>1.8</maven.compiler.source>
+   		<maven.compiler.target>1.8</maven.compiler.target>
 
 	</properties>
 	

@@ -1,9 +1,11 @@
 package my.domain.test.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-import org.springframework.data.annotation.Id;
 
+@Entity
 public class Customer {
 	
 	@Id
